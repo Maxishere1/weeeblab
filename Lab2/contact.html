@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Styles.css" />
+    <title>Portfolio | Contact us</title>
+  </head>
+
+  <body>
+    <header>
+      <h3><a href="index.html">Home</a></h3>
+      <h3><a href="contact.html">Contact me</a></h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="project1.html" class="selected-proj">Page 111</a></li>
+        <li><a href="project2.html">Page 222</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <section>
+          <div class="form-data">
+            <label for="inc-phone">Phone</label>
+            <input id="inc-phone" type="text" readonly value="+994509999999" />
+            <label for="inc-email">Email</label>
+            <input
+              id="inc-email"
+              type="text"
+              readonly
+              value="fatheremail@mail.com"
+            />
+            <label for="inc-address">Address</label>
+            <input
+              id="inc-address"
+              type="text"
+              readonly
+              value="Hell's filial ADNSU"
+            />
+          </div>
+        </section>
+        <section>
+          <form action="#">
+            <label for="fullname">Full Name</label>
+            <input
+              id="fullname"
+              type="text"
+              placeholder="Your name , sir"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Write your email"
+              required
+            />
+            <label for="usr-message">Your message</label>
+            <textarea
+              placeholder="Speak pleeease"
+              name="message"
+              id="usr-message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <input type="submit" value="Gonder" />
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
